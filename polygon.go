@@ -1,4 +1,4 @@
-package Circ2Poly
+package polygon
 
 import (
 	"fmt"
