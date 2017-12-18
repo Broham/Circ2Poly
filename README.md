@@ -1,5 +1,5 @@
 # Circ2Poly
-Accepts a lat/long, radius and number of sections and returns a GEOJSON polygon approximating that circle.  The higher the number of sections that you specify the closer the generated polygon will be to a circle.  Currently there is only one function: 	`ApproximateWKTCircle`
+Accepts a lat/long, radius and number of sections and returns a GEOJSON polygon approximating that circle.  The higher the number of sections that you specify the closer the generated polygon will be to a circle.  Currently there is only one function - `ApproximateWKTCircle`
 
 ### Parameters
 #### lat/long
@@ -30,3 +30,6 @@ func main() {
 	fmt.Println("Points:", points)
 }
 ```
+generates the following polygon:
+
+![Sample polygon](https://raw.githubusercontent.com/broham/Circ2Poly/master/sample.png)
