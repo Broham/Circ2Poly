@@ -3,6 +3,7 @@ package polygon
 import (
 	"fmt"
 	"github.com/StefanSchroeder/Golang-Ellipsoid/ellipsoid"
+	"strings"
 )
 
 func ApproximateWKTCircle(srcLat float64, srcLong float64, radius float64, sections float64) string {
